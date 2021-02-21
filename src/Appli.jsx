@@ -1,5 +1,4 @@
 import './Appli.scss';
-import './Appli.scss';
 import Entete from './Entete';
 import Dossier from './Dossier';
 
