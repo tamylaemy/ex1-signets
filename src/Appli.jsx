@@ -1,9 +1,11 @@
 import './Appli.scss';
+import './Appli.scss';
+import ConteneurGlobal from './ConteneurGlobal';
 
 export default function Appli() {
   return (
     <div className="Appli">
-        Gabarit de base d'une Application React
+        <ConteneurGlobal />
     </div>
   );
 }
