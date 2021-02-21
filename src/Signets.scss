@@ -7,6 +7,11 @@
     
     // border: 2px solid black;
 
+    img {
+        height: 200px;
+        width: 300px;
+    }
+
     .info {
         color: white;
         font-size: 15px;
@@ -17,5 +22,30 @@
             display: flex;
             justify-content: flex-end;
         }
+    }
+}
+
+// Medium Screen
+@media screen and (min-width: 900px) {
+    .Signets {
+        width: 210px;
+
+        img {
+            height: 150px;
+            width: 210px;
+        }
+    }
+}
+
+// Large Screen
+@media screen and (min-width: 1250px) {
+    .Signets {
+        width: 250px;
+
+        img {
+            height: 150px;
+            width: 250px;
+        }
+        
     }
 }
