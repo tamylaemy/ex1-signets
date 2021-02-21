@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=BtnAjoutSignet.css.map */
+.BtnAjoutSignet {
+  position: fixed;
+  bottom: 5%;
+  right: 30px;
+}
+/*# sourceMappingURL=BtnAjoutSignet.css.map */
