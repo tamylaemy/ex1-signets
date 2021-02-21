@@ -2,6 +2,25 @@
   display: grid;
   justify-content: center;
   /* .blocSignets {
-    } */
+        } */
+  background-color: palegoldenrod;
+}
+
+@media screen and (min-width: 768px) {
+  .Dossier {
+    background-color: lightsalmon;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Dossier {
+    background-color: paleturquoise;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .Dossier {
+    background-color: red;
+  }
 }
 /*# sourceMappingURL=Dossier.css.map */

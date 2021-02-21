@@ -1,6 +1,34 @@
-.Dossier {
-    display: grid;
-    justify-content: center;
-    /* .blocSignets {
-    } */
+// Mobile-first
+    .Dossier {
+        display: grid;
+        justify-content: center;
+        /* .blocSignets {
+        } */
+
+        background-color: palegoldenrod;
+
+    }
+
+// Tablette
+@media screen and (min-width: 768px) {
+    .Dossier {
+        background-color: lightsalmon;
+
+    }
+}
+
+// Medium Screen
+@media screen and (min-width: 900px) {
+    .Dossier {
+        background-color: paleturquoise;
+
+    }
+}
+
+// Large Screen
+@media screen and (min-width: 1250px) {
+    .Dossier {
+        background-color: rgb(255, 0, 0);
+
+    }
 }
