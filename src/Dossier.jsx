@@ -3,7 +3,7 @@ import BtnAjoutSignet from './BtnAjoutSignet';
 import Signets from './Signets';
 
 
-export default function Dossier(props) {
+export default function Dossier() {
   return (
       <div>
           < Signets />
