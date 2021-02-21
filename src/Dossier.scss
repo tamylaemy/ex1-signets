@@ -2,13 +2,11 @@
     .Dossier {
         display: flex;
         justify-content: center;
-        background-color: palegoldenrod;
     }
 
 // Tablette
 @media screen and (min-width: 680px) {
     .Dossier {
-        background-color: lightsalmon;
         .blocSignets {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -20,8 +18,6 @@
 // Medium Screen
 @media screen and (min-width: 940px) {
     .Dossier {
-        background-color: paleturquoise;
-
         .blocSignets {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -33,8 +29,6 @@
 // Large Screen
 @media screen and (min-width: 1250px) {
     .Dossier {
-        background-color: rgb(243, 182, 238);
-        
         .blocSignets {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

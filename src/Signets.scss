@@ -3,16 +3,20 @@
     margin : 0.6em;
     list-style-type: none;
     overflow: hidden;
-    background-color: rgb(238, 212, 248);
-    box-shadow: 0px 2px 2px #757575;
     
     // border: 2px solid black;
 
-    .iconTri {
-        opacity: 40%;
-    }
+        .iconTri {
+            opacity: 60%;
+            position: relative;
+            top: 50px;
+            left: 10px;
+        }
 
     img {
+        display: flex;
+        float: left;
+        padding-bottom: 4px;
         height: 200px;
         width: 300px;
     }
@@ -22,6 +26,7 @@
         font-size: 15px;
         padding-left: 0.6em;
         padding-right: 0.6em;
+        background-color: rgb(247, 174, 146);
 
         .btnPlus {
             display: flex;

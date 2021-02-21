@@ -1,13 +1,9 @@
 .Dossier {
   display: flex;
   justify-content: center;
-  background-color: palegoldenrod;
 }
 
 @media screen and (min-width: 680px) {
-  .Dossier {
-    background-color: lightsalmon;
-  }
   .Dossier .blocSignets {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,9 +12,6 @@
 }
 
 @media screen and (min-width: 940px) {
-  .Dossier {
-    background-color: paleturquoise;
-  }
   .Dossier .blocSignets {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -27,9 +20,6 @@
 }
 
 @media screen and (min-width: 1250px) {
-  .Dossier {
-    background-color: #f3b6ee;
-  }
   .Dossier .blocSignets {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
