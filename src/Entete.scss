@@ -1,0 +1,29 @@
+.Entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    color: white;
+
+    div {
+        display: flex;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+
+        h1 {
+            font-size: 16px;
+            font-weight: normal;
+            margin-right: 1em;
+        }
+
+        img {
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+
