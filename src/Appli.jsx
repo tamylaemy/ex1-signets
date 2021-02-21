@@ -1,14 +1,10 @@
 import './Appli.scss';
-import Entete from './Entete';
-import Dossier from './Dossier';
+import ConteneurGlobal from './ConteneurGlobal';
 
 export default function Appli() {
   return (
     <div className="Appli">
-          <Entete />
-        <section className="contenuPrincipal">
-            <Dossier />
-        </section>
+          <ConteneurGlobal />
     </div>
   );
 }
