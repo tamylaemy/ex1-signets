@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=Dossier.css.map */
+.Dossier {
+  display: grid;
+  justify-content: center;
+  /* .blocSignets {
+    } */
+}
+/*# sourceMappingURL=Dossier.css.map */

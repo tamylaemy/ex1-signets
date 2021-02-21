@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=Signets.css.map */
+.Signets {
+  width: 300px;
+  margin: 1em;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #eed4f8;
+  border: 2px solid black;
+}
+
+.Signets .info {
+  color: white;
+  font-size: 15px;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+
+.Signets .info .btnPlus {
+  display: flex;
+  justify-content: flex-end;
+}
+/*# sourceMappingURL=Signets.css.map */

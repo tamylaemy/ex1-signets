@@ -2,42 +2,42 @@
     {
         "id" : "0001",
         "titre": "Jeu en Équipe",
-        "couleur": "jaune",
+        "couleur": "#69db69",
         "date": "28 février 2021"
     },
 
     {
         "id" : "0002",
         "titre": "Conception d'Interface et Développement Web",
-        "couleur": "mauve",
+        "couleur": "#69db69",
         "date": "26 février 2021"
     },
 
     {
         "id" : "0003",
         "titre": "Gestion de Projet",
-        "couleur": "noire",
+        "couleur": "#69db69",
         "date": "26 février 2021"
     },
 
     {
         "id" : "0004",
         "titre": "Randonnée Pédestre",
-        "couleur": "orange",
+        "couleur": "#69db69",
         "date": "24 février 2021"
     },
 
     {
         "id" : "0005",
         "titre": "Éthique et Politique",
-        "couleur": "bleu foncé",
+        "couleur": "#69db69",
         "date": "24 février 2021"
     },
 
     {
         "id" : "0006",
         "titre": "Interface Web Réactive et Animée",
-        "couleur": "vert",
+        "couleur": "#69db69",
         "date": "21 février 2021"
     }
     
