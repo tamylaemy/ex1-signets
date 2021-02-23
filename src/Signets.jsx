@@ -5,7 +5,7 @@ import { Fab } from '@material-ui/core';
 
 export default function Signets(props) {
   return (
-    <li className="Signets">
+    <li className="Signets" style = {{backgroundColor:props.couleur }}>
         <Fab size="small" className="iconTri"> <SortIcon /> </Fab>
         <img src={'signets/' + props.id + '.jpg'} alt={props.titre}/>
         <div className="info"> 

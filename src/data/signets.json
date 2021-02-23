@@ -2,35 +2,35 @@
     {
         "id" : "0001",
         "titre": "Jeu en Équipe",
-        "couleur": "#69db69",
+        "couleur": "#e4e48b",
         "date": "28 février 2021"
     },
 
     {
         "id" : "0002",
         "titre": "Conception Graphique",
-        "couleur": "#69db69",
+        "couleur": "#f08080",
         "date": "26 février 2021"
     },
 
     {
         "id" : "0003",
         "titre": "Gestion de Projet",
-        "couleur": "#69db69",
+        "couleur": "#80adf0",
         "date": "26 février 2021"
     },
 
     {
         "id" : "0004",
         "titre": "Randonnée Pédestre",
-        "couleur": "#69db69",
+        "couleur": "#fa9d5f",
         "date": "24 février 2021"
     },
 
     {
         "id" : "0005",
         "titre": "Éthique et Politique",
-        "couleur": "#69db69",
+        "couleur": "#b653b6",
         "date": "24 février 2021"
     },
 
@@ -44,7 +44,7 @@
     {
         "id" : "0007",
         "titre": "Conception Web",
-        "couleur": "#69db69",
+        "couleur": "#e689c2",
         "date": "21 février 2021"
     }
     
