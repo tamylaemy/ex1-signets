@@ -1,18 +1,18 @@
 import './Dossier.scss';
-import BtnAjoutSignet from './BtnAjoutSignet';
-import Signets from './Signets';
-import tabSignets from './data/signets.json';
-
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+import SortIcon from '@material-ui/icons/Sort';
+import { Fab } from '@material-ui/core';
 
 export default function Dossier(props) {
   return (
-      <div className="Dossier">
-        <div className="blocSignets">
-          {
-            tabSignets.map(unSignet => <Signets etatSignet = {props.etatSignet} id={unSignet.id} titre={unSignet.titre} couleur={unSignet.couleur} date={unSignet.date}  />)
-          }
-        </div>
-        < BtnAjoutSignet />
+    <li className="Dossier" style = {{backgroundColor:props.couleur }}>
+        <Fab size="small" className="iconTri"> <SortIcon /> </Fab>
+        <img src={'signets/' + props.id + '.jpg'} alt={props.titre}/>
+        <div className="info"> 
+          <h1 className="titre">{props.titre}</h1>
+          <p className="prix">Modifié : {props.date}</p>
+          <div className="btnPlus">< MoreVertIcon /></div>
       </div>
+    </li>
   );
 }

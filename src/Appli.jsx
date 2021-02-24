@@ -1,13 +1,13 @@
 import './Appli.scss';
 import Entete from './Entete';
-import Dossier from './Dossier';
+import ListeDossier from './ListeDossier';
 
 export default function Appli() {
   return (
     <div className="Appli">
         <Entete />
         <section className="contenuPrincipal">
-            <Dossier />
+            <ListeDossier />
         </section>
     </div>
   );

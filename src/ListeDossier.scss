@@ -1,0 +1,38 @@
+// Mobile-first
+    .ListeDossier {
+        display: flex;
+        justify-content: center;
+    }
+
+// Tablette
+@media screen and (min-width: 680px) {
+    .ListeDossier {
+        .Dossiers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+        }
+    }
+}
+
+// Medium Screen
+@media screen and (min-width: 940px) {
+    .ListeDossier {
+        .Dossiers {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: center;
+        }
+    }
+}
+
+// Large Screen
+@media screen and (min-width: 1250px) {
+    .ListeDossier {
+        .Dossiers {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            justify-content: center;
+        }
+    }
+}
